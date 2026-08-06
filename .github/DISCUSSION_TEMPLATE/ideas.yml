@@ -1,0 +1,26 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! Describing the **problem** first makes ideas much easier to evaluate — accepted ideas get promoted to issues and appear on the [roadmap](https://github.com/orgs/BirchInnovation/projects/1).
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation where you miss this capability today.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How do you imagine it working?
+    validations:
+      required: false
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you use today, or other tools that do this well.
+    validations:
+      required: false

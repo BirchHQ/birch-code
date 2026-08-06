@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & help
+    url: https://github.com/BirchInnovation/birch-code/discussions/categories/q-a
+    about: Ask and answer questions about using Birch.
+  - name: Feature ideas
+    url: https://github.com/BirchInnovation/birch-code/discussions/categories/ideas
+    about: Propose and discuss ideas before they become tracked issues.
+  - name: Website & downloads
+    url: https://getbirch.dev
+    about: Product website, downloads, and documentation.

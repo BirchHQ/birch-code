@@ -1,0 +1,105 @@
+name: Bug report
+description: Report a problem in Birch
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. If you are not sure this is a bug — or you have a question — please start a [Q&A discussion](https://github.com/BirchInnovation/birch-code/discussions/categories/q-a) instead.
+
+        For anything security-sensitive, **do not file a public issue** — see [SECURITY.md](https://github.com/BirchInnovation/birch-code/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Birch version
+      description: "Gear menu → **Check for updates…** shows *Current version*."
+      placeholder: "0.22.8"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 11
+        - Windows 10
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+    validations:
+      required: true
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "e.g. macOS 14.5, Windows 11 23H2"
+    validations:
+      required: true
+  - type: dropdown
+    id: install-method
+    attributes:
+      label: How did you install Birch?
+      options:
+        - Installer (Setup.exe / Setup.pkg)
+        - Portable zip
+        - Automatic update from an earlier version
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a repository with …
+        2. Click …
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? Screenshots welcome — drag & drop them here.
+    validations:
+      required: true
+  - type: dropdown
+    id: reproducibility
+    attributes:
+      label: How often does it happen?
+      options:
+        - Always
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+  - type: textarea
+    id: startup-error
+    attributes:
+      label: Startup error details (if any)
+      description: If Birch showed the **“Birch could not start”** window, click **Copy details** there and paste the result here.
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log files
+      description: |
+        Attach the relevant daily log by dragging it into this field.
+        - macOS: `~/Library/Application Support/birch/logs/birch-YYYYMMDD.log`
+        - Windows: `%APPDATA%\birch\logs\birch-YYYYMMDD.log`
+    validations:
+      required: false
+  - type: checkboxes
+    id: secrets-check
+    attributes:
+      label: Privacy check
+      options:
+        - label: I have checked the pasted text and attached files for secrets, access tokens, and private information (repository names, internal URLs), and removed anything I do not want public.
+          required: true

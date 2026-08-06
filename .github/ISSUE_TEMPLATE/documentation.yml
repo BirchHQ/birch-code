@@ -1,0 +1,25 @@
+name: Documentation issue
+description: Report wrong, unclear, or missing documentation
+labels: ["documentation"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or area
+      description: Where is the problem? A URL, a page title, or an in-app screen name.
+      placeholder: "e.g. getbirch.dev/docs/…, SUPPORT.md, the Settings → AI pane help text"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Optional — how would you phrase or structure it instead?
+    validations:
+      required: false

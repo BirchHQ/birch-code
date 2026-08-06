@@ -1,0 +1,20 @@
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Birch version and OS
+      placeholder: "e.g. 0.22.8 on macOS 14.5"
+    validations:
+      required: false
+  - type: textarea
+    id: tried
+    attributes:
+      label: What have you already tried?
+    validations:
+      required: false
