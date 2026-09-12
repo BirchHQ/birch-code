@@ -7,7 +7,7 @@ body:
     attributes:
       label: Page or area
       description: Where is the problem? A URL, a page title, or an in-app screen name.
-      placeholder: "e.g. getbirch.dev/docs/…, SUPPORT.md, the Settings → AI pane help text"
+      placeholder: "e.g. docs.getbirchcode.dev/…, SUPPORT.md, the Settings → AI pane help text"
     validations:
       required: true
   - type: textarea

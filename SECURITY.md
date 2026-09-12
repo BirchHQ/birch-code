@@ -20,4 +20,4 @@ You will receive an acknowledgement within **7 days**. Please give us a reasonab
 
 - Birch is a desktop application; it stores its data locally (SQLite database, logs, artifacts) in your user profile.
 - Access tokens for integrations (GitHub, GitLab, Azure DevOps, Jira, Linear, YouTrack) are stored in the operating system's credential store (Keychain on macOS, Credential Manager on Windows).
-- The app downloads updates exclusively from `https://updates.getbirch.dev`.
+- The app downloads updates exclusively from `https://updates.getbirchcode.dev`.
