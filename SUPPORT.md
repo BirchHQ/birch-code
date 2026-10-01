@@ -4,11 +4,11 @@
 
 | I want to… | Go to |
 |---|---|
-| Ask a question or get help | [Q&A discussions](https://github.com/BirchInnovation/birch-code/discussions/categories/q-a) |
-| Propose or discuss an idea | [Ideas discussions](https://github.com/BirchInnovation/birch-code/discussions/categories/ideas) |
-| Report a bug | [Bug report form](https://github.com/BirchInnovation/birch-code/issues/new/choose) |
+| Ask a question or get help | [Q&A discussions](https://github.com/BirchHQ/birch-code/discussions/categories/q-a) |
+| Propose or discuss an idea | [Ideas discussions](https://github.com/BirchHQ/birch-code/discussions/categories/ideas) |
+| Report a bug | [Bug report form](https://github.com/BirchHQ/birch-code/issues/new/choose) |
 | Report a security problem | [SECURITY.md](SECURITY.md) — privately, never as a public issue |
-| See what's planned | [Roadmap](https://github.com/orgs/BirchInnovation/projects/1) |
+| See what's planned | [Roadmap](https://github.com/orgs/BirchHQ/projects/1) |
 
 If you are not sure whether something is a bug, start a Q&A discussion — confirmed bugs get promoted to issues.
 

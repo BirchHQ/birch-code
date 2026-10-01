@@ -2,7 +2,11 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for sharing an idea! Describing the **problem** first makes ideas much easier to evaluate — accepted ideas get promoted to issues and appear on the [roadmap](https://github.com/orgs/BirchInnovation/projects/1).
+        **This form is public.** For a suspected vulnerability, use [private vulnerability reporting](https://github.com/BirchHQ/birch-code/security/advisories/new) instead. Do not post secrets, private source code, or unredacted logs here.
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing an idea! Describing the **problem** first makes ideas much easier to evaluate — accepted ideas get promoted to issues and appear on the [roadmap](https://github.com/orgs/BirchHQ/projects/1).
   - type: textarea
     id: problem
     attributes:
