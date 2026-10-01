@@ -20,10 +20,10 @@ The app updates itself automatically. A **beta** update channel is available alo
 
 This repository contains **no source code**. It is the public home of Birch:
 
-- **[Issues](https://github.com/BirchInnovation/birch-code/issues)** — confirmed bugs and concrete tasks. Please use the [bug report form](https://github.com/BirchInnovation/birch-code/issues/new/choose).
-- **[Discussions](https://github.com/BirchInnovation/birch-code/discussions)** — questions, ideas and open conversation.
-- **[Roadmap](https://github.com/orgs/BirchInnovation/projects/1)** — the public board of accepted work.
-- **[Releases](https://github.com/BirchInnovation/birch-code/releases)** — versions, installers and release notes.
+- **[Issues](https://github.com/BirchHQ/birch-code/issues)** — confirmed bugs and concrete tasks. Please use the [bug report form](https://github.com/BirchHQ/birch-code/issues/new/choose).
+- **[Discussions](https://github.com/BirchHQ/birch-code/discussions)** — questions, ideas and open conversation.
+- **[Roadmap](https://github.com/orgs/BirchHQ/projects/1)** — the public board of accepted work.
+- **[Releases](https://github.com/BirchHQ/birch-code/releases)** — versions, installers and release notes.
 - **[Changelog](CHANGELOG.md)** — a readable history of changes.
 
 Not sure where something belongs? Start with [SUPPORT.md](SUPPORT.md). Issues track commitments and their state; Discussions are for everything that is not yet a commitment.

@@ -2,6 +2,10 @@ name: Documentation issue
 description: Report wrong, unclear, or missing documentation
 labels: ["documentation"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        **This form is public.** For a suspected vulnerability, use [private vulnerability reporting](https://github.com/BirchHQ/birch-code/security/advisories/new) instead. Do not post secrets, private source code, or unredacted logs here.
   - type: input
     id: location
     attributes:
